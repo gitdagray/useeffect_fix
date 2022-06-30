@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# "How to stop useEffect from running twice"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Author Links
 
-In the project directory, you can run:
+👋 Hello, I'm Dave Gray.
 
-### `npm start`
+✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚩 [Subscribe to my channel](https://bit.ly/3nGHmNn)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+☕ [Buy Me A Coffee](https://buymeacoffee.com/DaveGray)
 
-### `npm test`
+🚀 Follow Me:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Twitter](https://twitter.com/yesdavidgray)
+- [LinkedIn](https://www.linkedin.com/in/davidagray/)
+- [Blog](https://yesdavidgray.com)
+- [Reddit](https://www.reddit.com/user/DaveOnEleven)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Description
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📝 React 18 introduced a fundamental change in Strict Mode. Strict Mode is also enabled by default when you start your project with _create-react-app_. You should try to make your project work _without_ the fix provided in this repository, but when all else fails, this fix will keep the useEffect double call from wreaking havoc.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📺 [YouTube Video](https://youtu.be/81faZzp18NM) for this repository.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 💻 Source Code
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🔗 [How to stop useEffect from running twice](https://github.com/gitdagray/useeffect_fix)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎓 Academic Honesty
 
-## Learn More
+**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📚 Tutorial References
 
-### Code Splitting
+- 🔗 [Official React beta docs: You might not need an effect](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- 🔗 [Official React beta docs: How to handle the Effect firing twice in development?](https://beta.reactjs.org/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ⚙ VS Code Extensions I Use:
 
-### Analyzing the Bundle Size
+- 🔗 [ES7 React JS Snippets Extension](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- 🔗 [vscode-icons VS Code Extension](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- 🔗 [Github Themes VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
