@@ -23,7 +23,8 @@ function App() {
     } */
 
     // Variation #2
-    if (effectRan.current === true) {
+    // updated from video to include development check
+    if (effectRan.current === true || process.env.NODE_ENV !== 'development') {
       const fetchUsers = async () => {
         const response = await fetch('https://jsonplaceholder.typicode.com/users')
         const json = await response.json()
